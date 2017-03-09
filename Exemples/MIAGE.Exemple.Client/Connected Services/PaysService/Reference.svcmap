@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="428a6a9b-fe50-47bd-8109-a60f94ed6d5f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6493/PaysService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PaysService.xsd" MetadataType="Schema" ID="019ab009-4af1-4b21-b26b-835915d41a53" SourceId="1" SourceUrl="http://localhost:6493/PaysService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PaysService.wsdl" MetadataType="Wsdl" ID="df304eb6-961c-43af-a12e-9ae9f9894657" SourceId="1" SourceUrl="http://localhost:6493/PaysService.svc?wsdl" />
+    <MetadataFile FileName="PaysService.disco" MetadataType="Disco" ID="87748d69-6244-43b3-94bc-e92bc9de27c6" SourceId="1" SourceUrl="http://localhost:6493/PaysService.svc?disco" />
+    <MetadataFile FileName="PaysService1.xsd" MetadataType="Schema" ID="68c8ef6e-ec4d-461a-8432-5c191d87ef2b" SourceId="1" SourceUrl="http://localhost:6493/PaysService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PaysService2.xsd" MetadataType="Schema" ID="9088c05c-caf5-428f-8366-922f069628fa" SourceId="1" SourceUrl="http://localhost:6493/PaysService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
